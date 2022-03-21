@@ -1,0 +1,97 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;;
+}
+
+.wrapper {
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 0.5pc;
+  overflow: hidden;
+}
+
+.img{
+    filter: opacity(0.5) drop-shadow(0 0 0 hsl(277, 64%, 61%)); 
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h3{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+}
+
+.destaque {
+  color: hsl(277, 64%, 61%);
+}
+
+.lista{
+  display: flex;
+  justify-content: space-between;
+}
+
+.component{
+  display: flex;
+  flex-direction: column;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.first{
+  font-weight: 700;
+  color: white;
+}
+
+/* area do media query */
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    margin: 17vh 8pc;
+    height: 65vh;
+  }
+
+  .img{
+      height: 65vh;
+  }
+
+  .left {
+    padding: 4pc 4pc;
+  }
+
+  h1 {
+    font-size: 2.5pc;
+    padding-bottom: 2pc;
+  }
+  h3{
+      padding-bottom: 5pc;
+      padding-right: 2pc;
+      font-size: 1.1pc;
+      line-height: 1.5pc;
+  }
+  .first{
+    font-size: 1.3pc;
+  }
+}
+@media only screen and (max-width: 393px) {
+}
+
+@media only screen and (min-width: 360px) {
+}
+
+@media only screen and (min-width: 390px) {
+}
+
+@media only screen and (min-width: 393px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 820px) {
+}
