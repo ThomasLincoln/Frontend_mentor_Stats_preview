@@ -189,11 +189,33 @@ p {
     padding-top: 1pc;
   }
 }
-@media only screen and (max-width: 360px) {
-}
-
 
 @media only screen and (max-width: 393px) {
+  .wrapper{
+    margin: 3pc 2pc;
+  }
+  h1{
+    font-size: 1.8pc;
+    margin: 0pc 1pc;
+  }
+  h3{
+    font-size: 1pc;
+    margin: 0pc 1.5pc;
+    line-height: 1.8pc;
+  }
+  .lista{
+    margin: 0pc;
+    padding: 3pc 0pc;
+  }
+  p{
+    font-size: 0.8pc;
+    padding: 0pc;
+  }
+  .first{
+    font-size: 1.5pc;
+    padding-top: 2pc;
+    padding-bottom: 0.8pc;
+  }
 }
 
 @media only screen and (max-width: 768px) {
